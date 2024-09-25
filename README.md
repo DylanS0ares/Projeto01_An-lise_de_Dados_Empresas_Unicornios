@@ -5,7 +5,7 @@ Empresas unicórnios são startups que atingiram uma avaliação de mercado de p
 
 Nesse Projeto foi desenvolvido aplicações do pandas para facilitar a análise de dados graficamente da tabela de startups que tiveram seu desenvolvimento no ano 2021, assim pode-se comparar os valores e paises participantes.
 
-As principais habilidades desenvolvidas são referidas aos códigos de plotagem por meio de matplotlib e seabox com o auxílio do pandas, o código abaixo referencia partes significativas do código teste_data_analysis.py:
+As principais habilidades desenvolvidas são referidas aos códigos de plotagem por meio de matplotlib e seabox com o auxílio do pandas, o código abaixo referencia partes significativas do código Projeto_Unicornio.py:
 
 ``` python
 
@@ -42,5 +42,11 @@ Analise_Agrupada = data_frame.groupby( by=['País','Ano','Mês','Empresa']).coun
 
 # o uso de loc para alterar informações de tabela
 Analise_Agrupada.loc[Analise_Agrupada['País']=='Brazil']
+
+![Gráfico Mapa de Calor](Mapa de Calor de Valores Nulos.png)
+![Gráfico de Barras](Gráfico Analise dos Setores.png
+![Gráfico de Pizza](Gráfico Páises geradores de Unicórnios.png)
+![Gráfico de Linha](Gráfico Analise do Valor por País.png')
+
 
 ```
