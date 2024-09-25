@@ -52,11 +52,11 @@ plt.subplots_adjust(bottom=0.2)
 plt.savefig('Gráfico Analise dos Setores.png')
 plt.show()
 
-# # Plot Geral dos Países top 5 em gráfico de pizza
+# # Plot Geral dos Países top 8 em gráfico de pizza
 plt.figure(figsize=(10,10))
-plt.title('Países geradores de Unicórnios top 5')
+plt.title('Países geradores de Unicórnios top 8')
 
-plt.pie((data_frame['País'].value_counts(normalize=True)*100).head(5),labels=data_frame['País'].value_counts().index[0:5],shadow=True,startangle=90,autopct='%1.1f%%' )
+plt.pie((data_frame['País'].value_counts(normalize=True)*100).head(8),labels=data_frame['País'].value_counts().index[0:8],shadow=True,startangle=90,autopct='%1.1f%%' )
 plt.xticks(rotation=90,ha='right')
 plt.savefig('Gráfico Países geradores de Unicórnios.png')
 plt.show()
