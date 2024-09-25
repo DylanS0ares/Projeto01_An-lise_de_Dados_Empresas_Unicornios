@@ -49,5 +49,5 @@ Analise_Agrupada.loc[Analise_Agrupada['País']=='Brazil']
 
 (![Gráfico Países geradores de Unicórnios](https://github.com/user-attachments/assets/e8501fa7-6c40-4731-a5eb-ba3d93fe9752))
 
-(![Gráfico Analise do Valor por País](https://github.com/user-attachments/assets/dccb1b65-7793-4bd7-b61a-38209816aaea))
+(![Gráfico Analise do Valor por País](https://github.com/user-attachments/assets/c0a8e642-c452-4382-b4ea-e4a64938117d))
 
