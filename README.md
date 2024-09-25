@@ -47,9 +47,7 @@ Analise_Agrupada.loc[Analise_Agrupada['País']=='Brazil']
 
 (![Gráfico Analise dos Setores](https://github.com/user-attachments/assets/e7a1881a-34f4-423d-9d5f-0c9bdfcf8244))
 
-(![Gráfico de Pizza](Gráfico Países geradores de Unicórnios.png))
+(![Gráfico Países geradores de Unicórnios](https://github.com/user-attachments/assets/e8501fa7-6c40-4731-a5eb-ba3d93fe9752))
 
-(![Gráfico de Linha](Gráfico Analise do Valor por País.png'))
-
-
+(![Gráfico Analise do Valor por País](https://github.com/user-attachments/assets/dccb1b65-7793-4bd7-b61a-38209816aaea))
 
