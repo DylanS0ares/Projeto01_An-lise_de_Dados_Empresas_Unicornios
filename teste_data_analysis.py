@@ -92,7 +92,7 @@ plt.title('Analise do Valor por País')
 plt.xticks(rotation=45,ha='right')
 plt.subplots_adjust(bottom=0.2)
 plt.show()
-#
+
 
 
 
