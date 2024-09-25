@@ -95,7 +95,7 @@ plt.plot(Analise_preco['País'],Analise_preco['Valor'])
 plt.title('Analise do Valor por País')
 plt.xticks(rotation=45,ha='right')
 plt.subplots_adjust(bottom=0.2)
-plt.show()
 plt.savefig('Gráfico Analise do Valor por País.png')
-#
+plt.show()
+
 
