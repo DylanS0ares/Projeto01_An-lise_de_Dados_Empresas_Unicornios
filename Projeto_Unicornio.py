@@ -29,6 +29,7 @@ data_frame.rename( columns = {
 plt.figure(figsize=(10,6))
 sns.heatmap(data_frame.isnull(),cbar=False)
 plt.title('Mapa de Calor de Valores Nulos')
+plt.savefig('Mapa de Calor de Valores Nulos.png')
 plt.show()
 
 
@@ -48,6 +49,7 @@ plt.ylabel('nº nos setores')
 plt.xticks(rotation=45,ha = 'right')
 plt.bar(data_frame['Setor'].value_counts().index,data_frame['Setor'].value_counts())
 plt.subplots_adjust(bottom=0.2) 
+plt.savefig('Gráfico Analise dos Setores.png')
 plt.show()
 
 # # Plot Geral dos Países top 5 em gráfico de pizza
@@ -56,6 +58,7 @@ plt.title('Países geradores de Unicórnios top 5')
 
 plt.pie((data_frame['País'].value_counts(normalize=True)*100).head(5),labels=data_frame['País'].value_counts().index[0:5],shadow=True,startangle=90,autopct='%1.1f%%' )
 plt.xticks(rotation=90,ha='right')
+plt.savefig('Gráfico Páises geradores de Unicórnios.png')
 plt.show()
 
 data_frame['País'].value_counts()
@@ -93,5 +96,6 @@ plt.title('Analise do Valor por País')
 plt.xticks(rotation=45,ha='right')
 plt.subplots_adjust(bottom=0.2)
 plt.show()
+plt.savefig('Gráfico Analise do Valor por País.png')
 #
 
