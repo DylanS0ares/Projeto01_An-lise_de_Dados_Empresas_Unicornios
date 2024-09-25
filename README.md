@@ -43,13 +43,13 @@ Analise_Agrupada = data_frame.groupby( by=['País','Ano','Mês','Empresa']).coun
 # o uso de loc para alterar informações de tabela
 Analise_Agrupada.loc[Analise_Agrupada['País']=='Brazil']
 ```
-![Gráfico Mapa de Calor](Mapa de Calor de Valores Nulos.png)
+(![Mapa de Calor de Valores Nulos](https://github.com/user-attachments/assets/9625162f-2484-4bbb-bb18-4787560e55e4))
 
-![Gráfico de Barras](Gráfico Analise dos Setores.png)
+(![Gráfico Analise dos Setores](https://github.com/user-attachments/assets/e7a1881a-34f4-423d-9d5f-0c9bdfcf8244))
 
-![Gráfico de Pizza](Gráfico Países geradores de Unicórnios.png)
+(![Gráfico de Pizza](Gráfico Países geradores de Unicórnios.png))
 
-![Gráfico de Linha](Gráfico Analise do Valor por País.png')
+(![Gráfico de Linha](Gráfico Analise do Valor por País.png'))
 
 
 
