@@ -47,7 +47,7 @@ Analise_Agrupada.loc[Analise_Agrupada['País']=='Brazil']
 
 ![Gráfico de Barras](Gráfico Analise dos Setores.png)
 
-![Gráfico de Pizza](Gráfico Páises geradores de Unicórnios.png)
+![Gráfico de Pizza](Gráfico Países geradores de Unicórnios.png)
 
 ![Gráfico de Linha](Gráfico Analise do Valor por País.png')
 
